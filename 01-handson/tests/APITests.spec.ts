@@ -4,6 +4,7 @@ let userId;
 test('Get User', async ({ request }) => {
   const response = await request.get('https://reqres.in/api/users?page=2', {
     headers: {
+      'x-api-key': 'reqres-free-v1',
       'Accept': 'application/json'
     }
   });
@@ -20,6 +21,7 @@ test("Create User", async ({ request }) => {
         "job": "architect",
       },
       headers: {
+        'x-api-key': 'reqres-free-v1',
         "Accept" : "application/json"
       }
     });
