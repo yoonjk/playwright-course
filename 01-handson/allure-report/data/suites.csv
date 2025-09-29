@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1531","has Accounts","chromium","2025-09-29","passed","2025-09-29","","example.spec.ts","",""
+"","882","Create User","chromium","2025-09-29","passed","2025-09-29","","APITests.spec.ts","",""
+"","1825","get Accounts","chromium","2025-09-29","passed","2025-09-29","","example.spec.ts","",""
+"","706","Get User","chromium","2025-09-29","passed","2025-09-29","","APITests.spec.ts","",""
